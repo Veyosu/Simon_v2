@@ -1,0 +1,74 @@
+body{
+    background-color: rgb(153, 125, 180);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+   text-align: center;
+   
+   background-color: rgb(115, 85, 205);
+   border-style:solid;
+   border-width: 5px;
+   border-radius: 50px;
+   border-color:rgb(27, 16, 31);
+}
+
+header>p{
+    font-size: 30px;
+}
+
+p{
+font-size: 25px;
+}
+
+h1{
+    font-size: 50px;
+}
+
+main {
+    background-color: rgb(115, 85, 205);
+    padding: 25px;
+    margin: 10px;
+    border-style:solid;
+   border-width: 5px;
+   border-radius: 50px;
+   border-color:rgb(27, 16, 31);
+}
+
+/*Organisation des différents boutons de jeu dans une grille*/
+div {
+    display: grid;
+    grid-template-columns: 250px 250px;
+    grid-template-rows: 250px 250px;
+    margin: 10px;
+    
+}
+/*Gestion de la forme des différents bouton du jeu */
+#red_button{
+    border-top-left-radius: 50%;
+    padding: 25px;
+}
+
+#blue_button{
+    border-top-right-radius: 50%;
+    padding: 25px;
+}
+
+#yellow_button{
+    border-bottom-left-radius: 50%;
+    padding: 25px;
+}
+
+#green_button{
+    border-bottom-right-radius: 50%;
+    padding: 25px;
+}
+
+a{
+    font-size: 50px;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+}
