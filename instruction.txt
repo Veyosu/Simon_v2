@@ -1,0 +1,7 @@
+ Transformer les fichiers html en fichier php
+
+ écrire les fonctions JavaScript manquantes : récupération des entrées du joueurs, comparaison avec la séquence, augmentation de la difficulté
+
+ Rajouter de la surbrillance ou autre lorsque le bouton coloré est utilisé ET quand le son lié est joué lors de la séquence 
+
+ Récupérer les scores, les pseudo, les stockers et faire un classement ?
