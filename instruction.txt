@@ -1,4 +1,4 @@
- Transformer les fichiers html en fichier php
+ Transformer les fichiers html en fichier php ( peut-être jsute mettre .php et encadrer tout le code HTML par les balises <?php      ?>)
 
  écrire les fonctions JavaScript manquantes : récupération des entrées du joueurs, comparaison avec la séquence, augmentation de la difficulté
 
