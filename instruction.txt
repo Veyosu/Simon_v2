@@ -1,8 +1,0 @@
- Transformer les fichiers html en fichier php ( peut-être jsute mettre .php et encadrer tout le code HTML par les balises <?php      ?>)
-
- écrire les fonctions JavaScript manquantes : récupération des entrées du joueurs, comparaison avec la séquence, augmentation de la difficulté
-
- Rajouter de la surbrillance ou autre lorsque le bouton coloré est utilisé ET quand le son lié est joué lors de la séquence 
-
- Récupérer les scores, les pseudo, les stockers et faire un classement ?
-    Donc créer une BBD, la remplir grâce à la méthode $_POST puis réussir à renvoyer ces infos sur le site 
