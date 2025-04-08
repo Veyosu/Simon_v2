@@ -1,3 +1,26 @@
+document.addEventListener("DOMContentLoaded", () => {
+   const body = document.body;
+
+   function createShootingStar() {
+       const star = document.createElement("div");
+       star.classList.add("star");
+
+       // Position aléatoire
+       star.style.top = `${Math.random() * window.innerHeight}px`;
+       star.style.left = `${Math.random() * window.innerWidth}px`;
+
+       body.appendChild(star);
+
+       // Supprime l'étoile après l'animation
+       setTimeout(() => {
+           star.remove();
+       }, 3000);
+   }
+
+   // Génère une étoile filante toutes les 500ms
+   setInterval(createShootingStar, 500);
+});
+
 function delay(ms) {
     return new Promise(resolve => setTimeout(resolve, ms));
  }
