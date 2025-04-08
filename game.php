@@ -25,6 +25,16 @@ echo '<!DOCTYPE html>
             <button type="submit">Submit</button>
         </form>
 
+        <!-- Étoiles fixes -->
+<div class="fixed-star" style="top: 10%; left: 15%;"></div>
+<div class="fixed-star" style="top: 20%; left: 50%;"></div>
+<div class="fixed-star" style="top: 30%; left: 80%;"></div>
+<div class="fixed-star" style="top: 50%; left: 25%;"></div>
+<div class="fixed-star" style="top: 70%; left: 60%;"></div>
+
+<!-- Planète -->
+<div class="planet"></div>
+
     </body>
      <script src="updated_index.js"></script>
     </html>';
